@@ -1,12 +1,12 @@
 /* ---------- تنظیمات پایه ---------- */
 
 :root {
-  --bg: #12151c;
-  --bg-soft: #1a1f2b;
+  --bg: #4e6396;
+  --bg-soft: #9badd6;
   --text: #eef0f4;
   --text-muted: #a6adbb;
   --accent: #6ea8fe;
-  --card-border: #2a2f3d;
+  --card-border: #9fa3ad;
   --radius: 10px;
   --font-fa: "Vazirmatn", "Tahoma", sans-serif;
 }
