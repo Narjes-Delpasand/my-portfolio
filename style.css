@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* ---------- رنگ‌ها و تنظیمات پایه ---------- */
 :root {
   --bg: #f4f6fb;
@@ -205,3 +206,212 @@ section h2 {
 .project-card a:hover {
   text-decoration: underline;
 }
+=======
+/* ---------- رنگ‌ها و تنظیمات پایه ---------- */
+:root {
+  --bg: #f4f6fb;
+  --surface: #ffffff;
+  --text: #1f2937;
+  --text-muted: #5b6475;
+  --accent: #4f46e5;
+  --accent-soft: #eef0ff;
+  --border: #e3e7ef;
+  --radius: 14px;
+  --font-fa: "Vazirmatn", "Tahoma", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-fa);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.9;
+}
+
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 40px 24px 60px;
+}
+
+h1, h2, h3 {
+  line-height: 1.4;
+}
+
+/* ---------- هدر ---------- */
+.hero {
+  text-align: center;
+  padding: 64px 24px;
+  margin-bottom: 24px;
+  background: linear-gradient(135deg, #eef0ff, #ffffff);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.hero h1 {
+  font-size: 2.4rem;
+  margin-bottom: 8px;
+}
+
+.hero p {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+}
+
+/* ---------- کارت هر بخش ---------- */
+section {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px;
+  margin-bottom: 24px;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+section h2 {
+  font-size: 1.4rem;
+  margin-bottom: 16px;
+  padding-right: 14px;
+  border-right: 4px solid var(--accent);
+}
+
+.about p {
+  color: var(--text-muted);
+}
+
+/* ---------- مهارت‌ها ---------- */
+#skills ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#skills li {
+  background: var(--accent-soft);
+  color: var(--accent);
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+/* ---------- پروژه‌ها ---------- */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.project-card {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+}
+
+.project-card h3 {
+  font-size: 1.05rem;
+  margin-bottom: 8px;
+}
+
+.project-card p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.project-card-placeholder {
+  .project-card a {
+  display: inline-block;
+  margin-top: 12px;
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+  opacity: 0.6;
+  border-style: dashed;
+}
+
+/* ---------- تماس ---------- */
+.contact {
+  text-align: center;
+}
+
+.contact h2 {
+  border-right: none;
+  padding-right: 0;
+}
+
+.contact p {
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+
+.contact p a {
+  color: var(--accent);
+}
+
+.links {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 28px;
+  border-radius: 10px;
+  background: var(--accent);
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: opacity 0.2s ease;
+}
+
+.btn:hover {
+  opacity: 0.88;
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+}
+
+/* ---------- موبایل ---------- */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px 16px 40px;
+  }
+  section {
+    padding: 24px 20px;
+  }
+  .hero {
+    padding: 44px 20px;
+  }
+  .hero h1 {
+    font-size: 1.9rem;
+  }
+}
+.project-card a {
+  display: inline-block;
+  margin-top: 12px;
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+>>>>>>> 065af6e920b6c01a59f89989f1e989cc69179e0e
